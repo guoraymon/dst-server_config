@@ -83,10 +83,10 @@ return {
   ["workshop-1754437018"]={ ["configuration_options"]={  }, ["enabled"]=true },
 
   -- Tropical Experience | Lamp Post without alloy
-  ["workshop-2052669851"]={
-    ["configuration_options"]={ ["icon"]=0, ["ison"]=0, ["radius"]=5, ["recipe"]=1 },
-    ["enabled"]=true 
-  },
+  -- ["workshop-2052669851"]={
+  --   ["configuration_options"]={ ["icon"]=0, ["ison"]=0, ["radius"]=5, ["recipe"]=1 },
+  --   ["enabled"]=true 
+  -- },
 
   -- 能力勋章
   ["workshop-1909182187"]={
@@ -197,13 +197,17 @@ return {
   -- 稻花助手
   ["workshop-2064265201"]={
     ["configuration_options"]={
+      ["dont_drop"]=true,
       ["drop_stack"]=10,
+      ["heatrock_infinite"]=true,
       ["no_disease"]=false,
       ["no_grassgekko"]=false,
       ["quick_harvest"]=false,
       ["quick_pick"]=false,
       ["shortcut_drop"]=true,
-      ["stack_size"]=99 
+      ["siesta_canopy_uses"]=9999,
+      ["stack_size"]=99,
+      ["tent_uses"]=9999 
     },
     ["enabled"]=true 
   },
@@ -230,21 +234,6 @@ return {
   -- 二本垃圾桶
   ["workshop-1214740157"]={ ["configuration_options"]={  }, ["enabled"]=true },
 
-  -- 无限帐篷
-  ["workshop-356930882"]={
-    ["configuration_options"]={ ["uses"]=10000000, ["uses2"]=10000000 },
-    ["enabled"]=true 
-  },
-
   -- 装备槽
   ["workshop-375850593"]={ ["configuration_options"]={  }, ["enabled"]=true },
-
-  -- 暖石耐久
-  ["workshop-466732225"]={ ["configuration_options"]={  }, ["enabled"]=true },
-
-  -- 死亡不掉落
-  ["workshop-661253977"]={
-    ["configuration_options"]={ ["amudiao"]=true, ["baodiao"]=1, ["kong"]=0, ["rendiao"]=2, ["zbdiao"]=true },
-    ["enabled"]=true 
-  },
 }

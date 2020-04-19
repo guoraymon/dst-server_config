@@ -16,7 +16,7 @@ ServerModSetup("1418746242") -- 汉化增强
 ServerModSetup("1505270912") -- Tropical Experience | The Volcano Biome
 ServerModSetup("1754423272") -- Tropical Experience Return of Them Complement
 ServerModSetup("1754437018") -- Tropical Experience Return of Them Complement 2
-ServerModSetup("2052669851") -- Tropical Experience | Lamp Post without alloy
+-- ServerModSetup("2052669851") -- Tropical Experience | Lamp Post without alloy
 
 ServerModSetup("1909182187") -- 能力勋章
 ServerModSetup("1944492666") -- 花样风滚草
@@ -35,7 +35,4 @@ ServerModSetup("362175979") -- 彩色虫洞
 ServerModSetup("569043634") -- 火堆复活
 
 ServerModSetup("1214740157") -- 二本垃圾桶
-ServerModSetup("356930882") -- 无限帐篷
 ServerModSetup("375850593") -- 装备槽
-ServerModSetup("466732225") -- 暖石耐久
-ServerModSetup("661253977") -- 死亡不掉落

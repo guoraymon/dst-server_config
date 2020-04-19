@@ -20,13 +20,6 @@ return {
     ["enabled"]=true 
   },
 
-  -- 简易血条
-  ["workshop-1207269058"]={ ["configuration_options"]={  }, ["enabled"]=true },
-
-  -- 二本垃圾桶
-  ["workshop-1214740157"]={ ["configuration_options"]={  }, ["enabled"]=true },
-
-
   -- Tropical Experience | The Volcano Biome
   ["workshop-1505270912"]={
     ["configuration_options"]={
@@ -90,31 +83,10 @@ return {
   ["workshop-1754437018"]={ ["configuration_options"]={  }, ["enabled"]=true },
 
   -- Tropical Experience | Lamp Post without alloy
-  ["workshop-2052669851"]={
-    ["configuration_options"]={ ["icon"]=0, ["ison"]=0, ["radius"]=5, ["recipe"]=1 },
-    ["enabled"]=true 
-  },
-
-  -- 快速旅行
-  ["workshop-1530801499"]={
-    ["configuration_options"]={ ["Hunger_Cost"]=1, ["Ownership"]=false, ["Sanity_Cost"]=1 },
-    ["enabled"]=true 
-  },
-
-  -- 智能小木牌
-  ["workshop-1595631294"]={
-    ["configuration_options"]={
-      ["BundleItems"]=false,
-      ["Digornot"]=false,
-      ["DragonflyChest"]=false,
-      ["Icebox"]=false,
-      ["SaltBox"]=false 
-    },
-    ["enabled"]=true 
-  },
-
-  -- 击杀宣告
-  ["workshop-1894295075"]={ ["configuration_options"]={ ["is_fish_announce"]=true }, ["enabled"]=true },
+  -- ["workshop-2052669851"]={
+  --   ["configuration_options"]={ ["icon"]=0, ["ison"]=0, ["radius"]=5, ["recipe"]=1 },
+  --   ["enabled"]=true 
+  -- },
 
   -- 能力勋章
   ["workshop-1909182187"]={
@@ -130,12 +102,6 @@ return {
       ["pick_switch"]=true,
       ["transplant_switch"]=true 
     },
-    ["enabled"]=true 
-  },
-
-  -- AssetManager
-  ["workshop-1944472866"]={
-    ["configuration_options"]={ ["assetdebug"]=false, ["assetload"]=false, ["assetmod"]=false, gc=false },
     ["enabled"]=true 
   },
 
@@ -175,57 +141,7 @@ return {
     ["enabled"]=true 
   },
 
-  -- 稻花助手
-  ["workshop-2064265201"]={
-    ["configuration_options"]={
-      ["drop_stack"]=10,
-      ["no_disease"]=false,
-      ["no_grassgekko"]=false,
-      ["quick_harvest"]=false,
-      ["quick_pick"]=false,
-      ["shortcut_drop"]=true,
-      ["stack_size"]=99 
-    },
-    ["enabled"]=true 
-  },
-
-  -- 无限帐篷
-  ["workshop-356930882"]={
-    ["configuration_options"]={ ["uses"]=10000000, ["uses2"]=10000000 },
-    ["enabled"]=true 
-  },
-
-  -- 彩色虫洞
-  ["workshop-362175979"]={ ["configuration_options"]={ ["Draw over FoW"]="disabled" }, ["enabled"]=true },
-
-  -- 装备槽
-  ["workshop-375850593"]={ ["configuration_options"]={  }, ["enabled"]=true },
-
-  -- 全球定位
-  ["workshop-378160973"]={
-    ["configuration_options"]={
-      ["ENABLEPINGS"]=true,
-      ["FIREOPTIONS"]=2,
-      ["OVERRIDEMODE"]=false,
-      ["SHAREMINIMAPPROGRESS"]=true,
-      ["SHOWFIREICONS"]=true,
-      ["SHOWPLAYERICONS"]=true,
-      ["SHOWPLAYERSOPTIONS"]=2 
-    },
-    ["enabled"]=true 
-  },
-
-  -- 暖石耐久
-  ["workshop-466732225"]={ ["configuration_options"]={  }, ["enabled"]=true },
-
-  -- 火堆复活
-  ["workshop-569043634"]={ ["configuration_options"]={  }, ["enabled"]=true },
-
-  -- 死亡不掉落
-  ["workshop-661253977"]={
-    ["configuration_options"]={ ["amudiao"]=true, ["baodiao"]=1, ["kong"]=0, ["rendiao"]=2, ["zbdiao"]=true },
-    ["enabled"]=true 
-  },
+  
 
   -- Show Me
   ["workshop-666155465"]={
@@ -241,5 +157,83 @@ return {
       ["show_uses"]=-1 
     },
     ["enabled"]=true 
-  } 
+  },
+
+  -- 简易血条
+  ["workshop-1207269058"]={ ["configuration_options"]={  }, ["enabled"]=true },
+
+  -- 快速旅行
+  ["workshop-1530801499"]={
+    ["configuration_options"]={ ["Hunger_Cost"]=1, ["Ownership"]=false, ["Sanity_Cost"]=1 },
+    ["enabled"]=true 
+  },
+
+  -- 智能小木牌
+  ["workshop-1595631294"]={
+    ["configuration_options"]={
+      ["BundleItems"]=false,
+      ["Digornot"]=false,
+      ["DragonflyChest"]=false,
+      ["Icebox"]=false,
+      ["SaltBox"]=false 
+    },
+    ["enabled"]=true 
+  },
+
+  -- 全球定位
+  ["workshop-378160973"]={
+    ["configuration_options"]={
+      ["ENABLEPINGS"]=true,
+      ["FIREOPTIONS"]=2,
+      ["OVERRIDEMODE"]=false,
+      ["SHAREMINIMAPPROGRESS"]=true,
+      ["SHOWFIREICONS"]=true,
+      ["SHOWPLAYERICONS"]=true,
+      ["SHOWPLAYERSOPTIONS"]=2 
+    },
+    ["enabled"]=true 
+  },
+
+  -- 稻花助手
+  ["workshop-2064265201"]={
+    ["configuration_options"]={
+      ["dont_drop"]=true,
+      ["drop_stack"]=10,
+      ["heatrock_infinite"]=true,
+      ["no_disease"]=false,
+      ["no_grassgekko"]=false,
+      ["quick_harvest"]=false,
+      ["quick_pick"]=false,
+      ["shortcut_drop"]=true,
+      ["siesta_canopy_uses"]=9999,
+      ["stack_size"]=99,
+      ["tent_uses"]=9999 
+    },
+    ["enabled"]=true 
+  },
+
+  -- AssetManager
+  ["workshop-1944472866"]={
+    ["configuration_options"]={ ["assetdebug"]=false, ["assetload"]=false, ["assetmod"]=false, gc=false },
+    ["enabled"]=true 
+  },
+
+
+
+  -- 击杀宣告
+  ["workshop-1894295075"]={ ["configuration_options"]={ ["is_fish_announce"]=true }, ["enabled"]=true },
+
+  -- 彩色虫洞
+  ["workshop-362175979"]={ ["configuration_options"]={ ["Draw over FoW"]="disabled" }, ["enabled"]=true },
+
+  -- 火堆复活
+  ["workshop-569043634"]={ ["configuration_options"]={  }, ["enabled"]=true },
+
+
+
+  -- 二本垃圾桶
+  ["workshop-1214740157"]={ ["configuration_options"]={  }, ["enabled"]=true },
+
+  -- 装备槽
+  ["workshop-375850593"]={ ["configuration_options"]={  }, ["enabled"]=true },
 }
