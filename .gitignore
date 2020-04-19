@@ -1,0 +1,15 @@
+.DS_Store
+
+/Caves/backup/
+/Caves/save/
+/Caves/server_log.txt
+/Caves/server_chat_log.txt
+
+/Master/backup/
+/Master/save/
+/Master/server_log.txt
+/Master/server_chat_log.txt
+
+/mods/workshop-*/
+
+cluster_token.txt
