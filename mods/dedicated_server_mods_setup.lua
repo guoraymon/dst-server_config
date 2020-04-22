@@ -36,3 +36,5 @@ ServerModSetup("569043634") -- 火堆复活
 
 ServerModSetup("1214740157") -- 二本垃圾桶
 ServerModSetup("375850593") -- 装备槽
+
+ServerModSetup("2039274188") -- 功能合集
