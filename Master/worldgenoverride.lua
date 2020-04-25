@@ -5,7 +5,7 @@ return {
 		-- MISC
 		task_set = "default", 			-- "classic", "default", "cave_default"
 		start_location = "default", 	-- "caves", "default", "plus", "darkness"
-		world_size = "huge", 		-- "small", "medium", "default", "huge"
+		world_size = "default", 		-- "small", "medium", "default", "huge"
 		branching = "default", 			-- "never", "least", "default", "most"
 		loop = "default", 				-- "never", "default", "always"
 		specialevent = "none",       -- "none", "default", "hallowed_nights", "winters_feast", "year_of_the_gobbler"
