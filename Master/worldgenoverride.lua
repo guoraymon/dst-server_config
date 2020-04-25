@@ -5,10 +5,10 @@ return {
 		-- MISC
 		task_set = "default", 			-- "classic", "default", "cave_default"
 		start_location = "default", 	-- "caves", "default", "plus", "darkness"
-		world_size = "default", 		-- "small", "medium", "default", "huge"
+		world_size = "huge", 		-- "small", "medium", "default", "huge"
 		branching = "default", 			-- "never", "least", "default", "most"
 		loop = "default", 				-- "never", "default", "always"
-		specialevent = "default",       -- "none", "default", "hallowed_nights", "winters_feast", "year_of_the_gobbler"
+		specialevent = "none",       -- "none", "default", "hallowed_nights", "winters_feast", "year_of_the_gobbler"
 		autumn = "default", 			-- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
 		winter = "default", 			-- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
 		spring = "default", 			-- "noseason", "veryshortseason", "shortseason", "default", "longseason", "verylongseason", "random"
@@ -24,7 +24,7 @@ return {
 		touchstone = "default", 		-- "never", "rare", "default", "often", "always"
 		boons = "default", 				-- "never", "rare", "default", "often", "always"
 		cavelight = "default", 			-- "veryslow", "slow", "default", "fast", "veryfast"
-		disease_delay = "default", 		-- "none", "random", "long", "default", "short"
+		disease_delay = "none", 		-- "none", "random", "long", "default", "short"
 		prefabswaps_start = "default", 	-- "classic", "default", "highly random"
 		petrification = "default", 		-- "none", "few", "default", "many", "max"
 
