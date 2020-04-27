@@ -21,66 +21,66 @@ return {
   },
 
   -- Tropical Experience | The Volcano Biome
-  ["workshop-1505270912"]={
-    ["configuration_options"]={
-      [""]=0,
-      ["Hamlet"]=10,
-      ["Moon"]=10,
-      ["Shipwrecked"]=25,
-      ["Shipwrecked_plus"]=true,
-      ["Together"]=20,
-      ["Volcano"]=true,
-      ["Waves"]=true,
-      ["anthill"]=1,
-      ["aporkalypse"]=true,
-      ["betaversion"]=0,
-      ["boatlefthud"]=0,
-      ["city_tab"]=0,
-      ["disable_snow_effectst"]=false,
-      ["enableallprefabs"]=false,
-      ["flood"]=true,
-      ["frost_island"]=10,
-      ["hail"]=true,
-      ["hamlet_world"]=false,
-      ["home_tab"]=0,
-      ["interior_decorations"]=true,
-      ["kraken"]=1,
-      ["lilypad"]=2,
-      ["lobbyexit"]=false,
-      ["mactuskonice"]=2,
-      ["mangrove"]=3,
-      ["megarandomCompatibilityWater"]=false,
-      ["messagebottle"]=20,
-      ["musselfarm"]=300,
-      ["nautical_tab"]=true,
-      ["obsidian_tab"]=0,
-      ["octopusking"]=1,
-      ["pigcity1"]=15,
-      ["pigcity2"]=20,
-      ["pigruins"]=1,
-      ["rawling"]=1,
-      ["removedark"]=false,
-      ["seacucumber"]=100,
-      ["sealnado"]=true,
-      ["seataro"]=100,
-      ["seaweed"]=300,
-      ["set_idioma"]="stringsCh",
-      ["startlocation"]=5,
-      ["tar_pool"]=10,
-      ["tropicalshards"]=0,
-      ["watercontents"]=true,
-      ["waterygrave"]=10,
-      ["wind"]=true,
-      ["wreck"]=20 
-    },
-    ["enabled"]=true 
-  },
+  -- ["workshop-1505270912"]={
+  --   ["configuration_options"]={
+  --     [""]=0,
+  --     ["Hamlet"]=10,
+  --     ["Moon"]=10,
+  --     ["Shipwrecked"]=25,
+  --     ["Shipwrecked_plus"]=true,
+  --     ["Together"]=20,
+  --     ["Volcano"]=true,
+  --     ["Waves"]=true,
+  --     ["anthill"]=1,
+  --     ["aporkalypse"]=true,
+  --     ["betaversion"]=0,
+  --     ["boatlefthud"]=0,
+  --     ["city_tab"]=0,
+  --     ["disable_snow_effectst"]=false,
+  --     ["enableallprefabs"]=false,
+  --     ["flood"]=true,
+  --     ["frost_island"]=10,
+  --     ["hail"]=true,
+  --     ["hamlet_world"]=false,
+  --     ["home_tab"]=0,
+  --     ["interior_decorations"]=true,
+  --     ["kraken"]=1,
+  --     ["lilypad"]=2,
+  --     ["lobbyexit"]=false,
+  --     ["mactuskonice"]=2,
+  --     ["mangrove"]=3,
+  --     ["megarandomCompatibilityWater"]=false,
+  --     ["messagebottle"]=20,
+  --     ["musselfarm"]=300,
+  --     ["nautical_tab"]=true,
+  --     ["obsidian_tab"]=0,
+  --     ["octopusking"]=1,
+  --     ["pigcity1"]=15,
+  --     ["pigcity2"]=20,
+  --     ["pigruins"]=1,
+  --     ["rawling"]=1,
+  --     ["removedark"]=false,
+  --     ["seacucumber"]=100,
+  --     ["sealnado"]=true,
+  --     ["seataro"]=100,
+  --     ["seaweed"]=300,
+  --     ["set_idioma"]="stringsCh",
+  --     ["startlocation"]=5,
+  --     ["tar_pool"]=10,
+  --     ["tropicalshards"]=0,
+  --     ["watercontents"]=true,
+  --     ["waterygrave"]=10,
+  --     ["wind"]=true,
+  --     ["wreck"]=20 
+  --   },
+  --   ["enabled"]=true 
+  -- },
 
   -- Tropical Experience Return of Them Complement
-  ["workshop-1754423272"]={ ["configuration_options"]={  }, ["enabled"]=true },
+  -- ["workshop-1754423272"]={ ["configuration_options"]={  }, ["enabled"]=true },
 
   -- Tropical Experience Return of Them Complement 2
-  ["workshop-1754437018"]={ ["configuration_options"]={  }, ["enabled"]=true },
+  -- ["workshop-1754437018"]={ ["configuration_options"]={  }, ["enabled"]=true },
 
   -- Tropical Experience | Lamp Post without alloy
   -- ["workshop-2052669851"]={
@@ -152,7 +152,7 @@ return {
       ["food_estimation"]=-1,
       ["food_order"]=0,
       ["food_style"]=0,
-      ["lang"]="auto",
+      ["lang"]="chs",
       ["show_food_units"]=-1,
       ["show_uses"]=-1 
     },
@@ -171,11 +171,11 @@ return {
   -- 智能小木牌
   ["workshop-1595631294"]={
     ["configuration_options"]={
-      ["BundleItems"]=false,
+      ["BundleItems"]=true,
       ["Digornot"]=false,
-      ["DragonflyChest"]=false,
-      ["Icebox"]=false,
-      ["SaltBox"]=false 
+      ["DragonflyChest"]=true,
+      ["Icebox"]=true,
+      ["SaltBox"]=true
     },
     ["enabled"]=true 
   },
@@ -198,30 +198,57 @@ return {
   ["workshop-2064265201"]={
     ["configuration_options"]={
       ["dont_drop"]=true,
-      ["drop_stack"]=10,
+      ["drop_stack"]=0,
+      ["extra_equip_slots"]=true,
       ["heatrock_infinite"]=true,
-      ["no_disease"]=false,
-      ["no_grassgekko"]=false,
+      ["no_disease"]=true,
+      ["no_grassgekko"]=true,
       ["quick_harvest"]=false,
       ["quick_pick"]=false,
       ["shortcut_drop"]=true,
       ["siesta_canopy_uses"]=9999,
-      ["stack_size"]=99,
-      ["tent_uses"]=9999 
+      ["stack_size"]=0,
+      ["tent_uses"]=9999,
+      ["trash_destroy"]=true
     },
     ["enabled"]=true 
   },
 
-  -- AssetManager
-  ["workshop-1944472866"]={
-    ["configuration_options"]={ ["assetdebug"]=false, ["assetload"]=false, ["assetmod"]=false, gc=false },
+  -- 99堆叠
+  ["workshop-1540284567"]={
+    ["configuration_options"]={
+      ["DropWholeStack"]=true,
+      ["MAXSTACKSIZELARGEITEM"]=99,
+      ["MAXSTACKSIZEMEDITEM"]=99,
+      ["MAXSTACKSIZESMALLITEM"]=99,
+      ["auto_stack"]=false,
+      ["mobstack"]="On" 
+    },
     ["enabled"]=true 
   },
 
-
+  -- 掉落堆叠
+  ["workshop-1998081438"]={ ["configuration_options"]={ ["StackRange"]=10 }, ["enabled"]=true },
 
   -- 击杀宣告
   ["workshop-1894295075"]={ ["configuration_options"]={ ["is_fish_announce"]=true }, ["enabled"]=true },
+  
+  -- 防止灭绝
+  ["workshop-1974725370"]={
+    ["configuration_options"]={
+      ["leastnum_beefalo"]=2,
+      ["leastnum_beehive"]=2,
+      ["leastnum_catcoonden"]=2,
+      ["leastnum_knight"]=2,
+      ["leastnum_lightninggoat"]=2,
+      ["leastnum_rocky"]=2,
+      ["leastnum_slurtlehole"]=2,
+      ["leastnum_spiderden"]=2,
+      ["respawnmechanism"]="scripts/respawnnear.lua",
+      ["respawntime"]=10
+    },
+    ["enabled"]=true 
+  },
 
   -- 彩色虫洞
   ["workshop-362175979"]={ ["configuration_options"]={ ["Draw over FoW"]="disabled" }, ["enabled"]=true },
@@ -232,10 +259,10 @@ return {
 
 
   -- 二本垃圾桶
-  ["workshop-1214740157"]={ ["configuration_options"]={  }, ["enabled"]=true },
+  -- ["workshop-1214740157"]={ ["configuration_options"]={  }, ["enabled"]=true },
 
   -- 装备槽
-  ["workshop-375850593"]={ ["configuration_options"]={  }, ["enabled"]=true },
+  -- ["workshop-375850593"]={ ["configuration_options"]={  }, ["enabled"]=true },
 
   -- 功能合集
   ["workshop-2039274188"]={
